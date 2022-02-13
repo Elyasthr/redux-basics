@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "./styles/index.scss";
-import { getPost } from "./action/post.action";
-import { getUser } from "./action/user.action";
+import { getPost } from "./store/action/post.action";
+import { getUser } from "./store/action/user.action";
 //redux 
-import rootReducer from './reducers'
+import rootReducer from './store/reducers'
 import { Provider } from "react-redux";
 import { applyMiddleware, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
