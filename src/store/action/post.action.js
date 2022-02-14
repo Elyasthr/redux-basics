@@ -5,6 +5,7 @@ export const GET_POST = "GET_POST";
 export const ADD_POST = "ADD_POST";
 export const EDIT_POST = "EDIT_POST";
 export const DELETE_POST = "DELETE_POST";
+export const ADD_LIKE = "ADD_LIKE";
 
 export const getPost = () => {
   return (dispatch) => {
@@ -50,6 +51,20 @@ export const deletePost = (postId) => {
     })
       .then((res) => {
         dispatch({ type: DELETE_POST, payload: { postId } })
+      })
+      .catch((err) => console.log(err))
+  }
+}
+
+export const addLike = (data) => {
+  return (dispatch) => {
+    return axios({
+      method: "put",
+      url: `http://localhost:3000/posts/${data.id}`,
+      data: { ...data }
+    })
+      .then((res) => {
+        dispatch({ type: ADD_LIKE, payload: { ...data } })
       })
       .catch((err) => console.log(err))
   }

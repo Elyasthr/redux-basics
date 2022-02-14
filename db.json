@@ -1,38 +1,35 @@
 {
   "posts": [
     {
-      "title": "Lorem ipsum dolor sit amet",
-      "author": "Patrice",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-      "likes": 27,
+      "pseudo": "user42",
+      "likes": 29,
       "id": "1"
     },
     {
       "title": "Lorem ipsum dolor sit amet dolor sit amet",
-      "author": "Samia",
+      "auhtor": "Samia",
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-      "likes": 16,
+      "likes": 18,
       "id": "2"
     },
     {
       "title": "Lorem ipsum dolor",
-      "author": "Denis",
+      "auhtor": "Denis",
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-      "likes": 107,
+      "likes": 111,
       "id": "3"
     },
     {
       "title": "artcile",
-      "author": "user42",
       "content": "oui c'eeest moooia",
-      "likes": 0,
+      "likes": 36,
       "id": "PambZo9"
     }
   ],
   "users": [
     {
       "pseudo": "user42",
-      "likes": 21,
+      "likes": 26,
       "id": 1
     }
   ]
